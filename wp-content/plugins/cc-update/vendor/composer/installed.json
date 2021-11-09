@@ -1,0 +1,54 @@
+[
+    {
+        "name": "clearcode/wordpress-framework",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ClearcodeHQ/wordpress-framework.git",
+            "reference": "930f960371a040fde01abe3932d69029e3d1d890"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ClearcodeHQ/wordpress-framework/zipball/930f960371a040fde01abe3932d69029e3d1d890",
+            "reference": "930f960371a040fde01abe3932d69029e3d1d890",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0"
+        },
+        "time": "2017-10-19T17:58:43+00:00",
+        "type": "project",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Clearcode\\Framework\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0+"
+        ],
+        "authors": [
+            {
+                "name": "Piotr Niewiadomski",
+                "homepage": "https://github.com/PiotrPress"
+            },
+            {
+                "name": "Clearcode",
+                "homepage": "https://github.com/ClearcodeHQ"
+            }
+        ],
+        "description": "WordPress Framework boilerplate by Clearcode.",
+        "homepage": "https://clearcode.cc",
+        "keywords": [
+            "blog",
+            "boilerplate",
+            "cms",
+            "composer",
+            "framework",
+            "wordpress",
+            "wp"
+        ]
+    }
+]

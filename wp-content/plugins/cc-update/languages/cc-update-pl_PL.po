@@ -1,0 +1,200 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cc-update\n"
+"POT-Creation-Date: 2018-06-19 16:31+0200\n"
+"PO-Revision-Date: 2018-06-19 16:47+0200\n"
+"Last-Translator: Piotr Niewiadomski <p.niewiadomski@clearcode.cc>\n"
+"Language-Team: Clearcode | Piotr Niewiadomski <p.niewiadomski@clearcode.cc>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/Cron.php:77
+#, php-format
+msgid "Can't change directory to: %s"
+msgstr "Nie można zmienić katalogu na: %s"
+
+#: includes/Cron.php:89
+msgid "Updated"
+msgstr "Zaktualizowano"
+
+#: includes/Cron.php:119 includes/Settings.php:62
+msgid "Interval"
+msgstr "Interwał"
+
+#: includes/Cron.php:133 includes/Settings.php:44 includes/Settings.php:80
+#: includes/Settings.php:81 includes/Settings.php:111 includes/Settings.php:307
+msgid "Update"
+msgstr "Aktualizacja"
+
+#: includes/Settings.php:46
+msgid "Git"
+msgstr "Git"
+
+#: includes/Settings.php:49
+msgid "The path to the git executable."
+msgstr "Ścieżka do pliku wykonywalnego git."
+
+#: includes/Settings.php:50 includes/Settings.php:58 includes/Settings.php:66
+msgid "Default"
+msgstr "Domyślnie"
+
+#: includes/Settings.php:54
+msgid "Dir"
+msgstr "Katalog"
+
+#: includes/Settings.php:57
+msgid "The path to your repository."
+msgstr "Ścieżka do repozytorium."
+
+#: includes/Settings.php:65
+msgid "The frequency to check for updates."
+msgstr "Częstotliwość sprawdzania aktualizacji."
+
+#: includes/Settings.php:68
+msgid "minutes"
+msgstr "minuty"
+
+#: includes/Settings.php:73
+msgid "Emails"
+msgstr "Wiadomości email"
+
+#: includes/Settings.php:74 includes/Settings.php:307
+msgid "Test"
+msgstr "Test"
+
+#: includes/Settings.php:75
+msgid "Status"
+msgstr "Status"
+
+#: includes/Settings.php:91 includes/Settings.php:92
+msgid "Logs"
+msgstr "Zdarzenia"
+
+#: includes/Settings.php:100 includes/Settings.php:101
+#: includes/Settings.php:179 includes/Update.php:142
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: includes/Settings.php:136
+msgid "Update Logs"
+msgstr "Dziennik zdarzeń"
+
+#: includes/Settings.php:156
+#, php-format
+msgid "Preferred method is to disable %s and add a task to cron on the server."
+msgstr ""
+"Preferowaną metodą jest wyłączenie harmonogramu %s i dodanie zadania do "
+"harmonogramu cron na serwerze."
+
+#: includes/Settings.php:161
+msgid "Add following constant to"
+msgstr "Dodaj następującą stałą do"
+
+#: includes/Settings.php:166
+msgid "Add the following task to your cron jobs"
+msgstr "Dodaj następujące zadanie do harmonogramu cron"
+
+#: includes/Settings.php:199
+msgid "Send test email"
+msgstr "Wyślij wiadomość testową"
+
+#: includes/Settings.php:205
+msgid "Force"
+msgstr "Wymuś"
+
+#: includes/Settings.php:210
+msgid "Disable"
+msgstr "Wyłącz"
+
+#: includes/Settings.php:210
+msgid "Enable"
+msgstr "Włącz"
+
+#: includes/Settings.php:315
+#, php-format
+msgid "Email sent successfully to all recipients: %s."
+msgstr "Wiadomość email została poprawnie wysłana do wszystkich odbiorców: %s."
+
+#: includes/Settings.php:323
+#, php-format
+msgid "Something went wrong when sending email to recipients: %s."
+msgstr ""
+"Coś poszło nie tak podczas wysyłania wiadomości email do odbiorców: %s."
+
+#: includes/Settings.php:334
+#, php-format
+msgid "Something went wrong when executing: %s command."
+msgstr "Coś poszło nie tak podczas wykonywania komendy: %s."
+
+#: includes/Settings.php:335
+#, php-format
+msgid "Check %s for more details."
+msgstr "Sprawdź %s, aby uzyskać więcej szczegółów."
+
+#: includes/Settings.php:339
+msgid "logs"
+msgstr "zdarzenia"
+
+#: includes/Settings.php:348
+msgid "Settings saved."
+msgstr "Ustawienia zapisane."
+
+#: includes/Table.php:43
+msgid "#"
+msgstr "#"
+
+#: includes/Table.php:44
+msgid "Date"
+msgstr "Data"
+
+#: includes/Table.php:45
+msgid "Data"
+msgstr "Dane"
+
+#: includes/Table.php:55
+msgid "No logs available."
+msgstr "Brak dostępnych zdarzeń w dzienniku."
+
+#: includes/Update.php:152
+msgid "Author"
+msgstr "Autor"
+
+#: includes/Validate.php:36
+#, php-format
+msgid "Wrong git path: %s. This is not the file or is not executable."
+msgstr "Zła ścieżka git: %s. To nie jest plik lub nie jest wykonywalny."
+
+#: includes/Validate.php:44
+#, php-format
+msgid "Wrong repository path: %s."
+msgstr "Nieprawidłowa ścieżka repozytorium: %s."
+
+#: includes/Validate.php:48
+#, php-format
+msgid "Failed to change directory to: %s."
+msgstr "Nie można zmienić katalogu na: %s."
+
+#: includes/Validate.php:56
+#, php-format
+msgid "Interval value: %s must be a number."
+msgstr "Wartość interwału: %s musi być liczbą."
+
+#: includes/Validate.php:64
+#, php-format
+msgid "Wrong email address: %s."
+msgstr "Błędny adres email: %s."
+
+#: vendor/clearcode/wordpress-framework/src/v3/Singleton.php:31
+#: vendor/clearcode/wordpress-framework/src/v3/Singleton.php:34
+#: vendor/clearcode/wordpress-framework/src/v3/Singleton.php:38
+msgid "Cheatin&#8217; uh?"
+msgstr "Oszukujemy, co?"
